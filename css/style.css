@@ -1,0 +1,111 @@
+/* Common Css Start */
+h1,h2,h3,h4,h5,h6,p,
+ul,ol,li {
+    margin: 0;
+}
+a,a:hover {
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+input, 
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+:root{
+    --primary-font:"Poppins", sans-serif;
+    --secondary-font:"PT Sans", sans-serif;
+}
+body {
+    font-family: var(--primary-font);
+}
+h1,h2,h3{
+    font-family: var(--secondary-font);
+}
+/* Common Css End */
+
+/* Nav Css start */
+#primary-nav ul li a{
+    color: black;
+    padding: 25px 15px;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 15px;
+}
+#primary-nav ul li a:hover{
+    color: #FC0;
+    border-bottom: 1px solid black;
+}
+/* Nav Css end */
+
+/* Banner Css start */
+#banner{
+    padding: 50px;
+}
+#banner .sec-1{
+    padding: 90px 0;
+}
+#banner h6{
+    color: #353535;
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#banner h1{
+    color: #353535;
+    font-family: var(--secondary-font);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#banner h5{
+    padding: 50px 0;
+    color: #353535;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 39.6px */
+}
+#banner p{
+    color: #353535;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 36px */
+    margin-bottom: 30px;
+}
+#banner a{
+    color: #353535;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 36px */
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px 11px;
+    margin-right: 10px;
+}
+#banner a:hover{
+    border: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #FC0;
+}
+#banner button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: #ffffff;
+    margin-right: 10px;
+}
+/* Banner Css end */
